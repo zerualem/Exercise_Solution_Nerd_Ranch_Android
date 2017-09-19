@@ -1,0 +1,47 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="1dp"
+    android:weightSum="1">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/crime_view_pager"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_weight="0.44">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/first_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="First"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/last_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Last"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
